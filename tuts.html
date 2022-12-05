@@ -3,76 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Fowaa Landing page">
+    <meta name="description" content="Contact us form">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Assignment</title>
+    <style>
+        body {
+          background-image: url('picture1.jpg');
+          background-color: #cccccc;
+        }
+
+
+        p.thicker {
+  font-weight: 400;
+  font-style: italic ;
+}
+
+#btn{
+  margin-left: 70px;
+  padding: 6px ,10px ;
+  font-size: 15px ;
+}
+
+        </style>
+        
+    
 </head>
-<body>
+<body background="picture1.jpg">
     <h1><span>Welcome to my page</span></h1>
     <h5>Trying my first HTML CODE</h5>
-    <h4>A simple html table </h4>
+    <h4>A simple contact us form </h4>
 
-    <table>
-        <tr>
-            <th></th>
-            <th>Class</th>
-            <th>Scores</th>
+
+
+    <form>
+        FIRST NAME <input type="text" maxlength="50"></br></br>
+        LAST NAME <input type="text" maxlength="50"></br></br>
+        EMAIL<input type="email" maxlength="50"></br></br>
+        PHONE NUMBER<input type="tel" maxlength="50"></br></br>
+        GENDER<input type="radio" value="male">MALE
+        <input type="radio" value="female">FEMALE</br></br>
+        <textarea name=" comment" rows="15" cols="30" placeholder="Enter your comments"></textarea><br></br>
+        <input type="submit" value="Submit">
           
-        </tr>
-        <tr>
-            <td>row1</td>
-            <td>DBMS</td>
-            <td>ITWD</td>
-            <td>O.S</td>
-  <td>ITWD</td>
-         
-
-        </tr>
-        <tr>
-            <td>row2</td>
-            <td>P.A</td>
-            <td>R.M</td>
-            <td>S.E</td>
-  <td>ITWD</td>
-           
-            
-        </tr>
-        <tr>
-            <td>row3</td>
-            <td>V.B</td>
-            <td>DBMS</td>
-            <td>ITWD</td>
-  <td">ITWD</td>
-          
-            
-        </tr>
-        <tr>
-            <td>row4</td>
-            <td>OS</td>
-            <td>R.M</td>
-            <td>S.E</td>
-  <td>ITWD</td>
-            
-        
-        </tr>
-        <tr>
-            <td>row5</td>
-            <td>V.B</td>
-            <td>P.A</td>
-            <td>S.E</td>
-  <td>ITWD</td>
-            
-        </tr>
-
- <tr>
-            <td>row6</td>
-            <td>V.B</td>
-            <td>P.A</td>
-            <td>S.E</td>
-  <td>ITWD</td>
-            
-        </tr>
-    </table>
+          </form>
 </body>
 </html>
